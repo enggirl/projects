@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="stylesheets/ui_base.css" />
+	<link rel="stylesheet" href="stylesheets/ui_common.css" />
+	<link rel="stylesheet" href="stylesheets/login.css" />
+    <link rel="stylesheet" href="javascripts/css/ui-lightness/jquery-ui-1.10.4.min.css" />
+    <script type="text/javascript" src="javascripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui-1.10.4.min.js"></script>
+    <script type="text/javascript" src="javascripts/index.js"></script>
+</head>
+<body>
+	<div class="contentWrap" >
+		<div class="bg"><img src="images/login_bg.jpg" alt=""/></div>
+		<h1><a href="#" class="logo">鸟窝</a></h1>
+		<h2>让应聘方不找工作、招聘方不招人才。</h2>
+		<div class="regBox"  id="resisterPanel">
+	<div class="form">
+        <ul>
+          <li class="input_req">
+            <div class="frm">
+              <span class="prompt tipMsg" style="">邮箱</span>
+              <input type="text" data-em="email" data-type="email" id="myemail" error-id="errorEmail" class="txt mail current verification" style="border: 1px solid rgb(160, 160, 160);">
+              <em class="email curemail">&nbsp;</em>
+              <span class="error errorregister errorlogin" id="errorEmail" style="">请输入正确邮箱地址</span>
+            </div>
+          </li>
+          <li class="input_req">
+            <div class="frm">
+              <span class="prompt tipMsg" style="">密码</span>
+              <input type="password" data-em="pwd" data-type="notnull" id="mypwd" error-id="errorpassword" class="txt verification" style="border: 1px solid rgb(160, 160, 160);">
+              <em class="pwd">&nbsp;</em>
+              <span id="errorpassword" class="error errorregister errorlogin" style="">请输入密码</span>
+            </div>
+          </li>
+          <li class="input_req registerPanel" style="display: list-item;">
+            <div class="frm VerifCode">
+              <span class="prompt tipMsg">验证码</span>
+              <input type="text" id="mycaptcha" class="txt">
+              <img src="images/verfi_code.png" class="updateCaptcha" style="cursor: pointer" id="captchaImg" title="刷新验证码">
+              <em class="pwd updateCaptcha">&nbsp;</em>
+              <span class="error errorregister" style="">请输入验证码</span>
+            </div>
+          </li>
+          <li class="registerPanel" style="display: list-item;">
+            <div class="frm">
+              <span>类型</span>
+              <label><input type="radio" value="1" checked="checked" id="user_type" class="rad" name="rad">应聘方</label>
+              <label><input type="radio" value="2" class="rad" name="rad">招聘方</label>
+            </div>
+          </li>
+          <li>
+            <div class="frm">
+              <label class="remember"><input checked="checked" id="rememberMe" type="radio" class="rad">记住我</label>
+              <a href="#" class="forget">忘记密码?</a>
+            </div>
+          </li>
+          <li class="registerPanel" style="display: list-item;">
+            <div class="frm">
+                <label><input type="checkbox" checked="checked" id="registerAgree" class="rad"><a href="javascript:void(0)" class="deal">已阅读并同意《鸟窝用户协议》</a></label>
+            </div>
+          </li>
+          <li style="display: list-item;"><div class="frm"><a href="javascript:void(0)" id="registerBtn" class="registerBtn">注     册</a></div></li>
+          
+        </ul>
+      </div>
+			<div class="thirdPartyBtns" >
+				<!-- <h2>还不是鸟窝用户？点击注册</h2> -->
+				<h2>已经有账号？请直接登录</h2>
+				<ul>
+          <li id="loginTipT" style="display: list-item;"><a href="javascript:void(0)" class="loginBtn">登     录</a></li>
+          <li style="display: none;" id="registerTip"><a href="javascript:void(0)" class="loginBtn">注     册</a></li>
+          <li><a href="#" class="weibo thirdPtyBtn"><em>&nbsp;</em>使用微博登录</a></li>
+          <li><a href="#" class="qq thirdPtyBtn"><em>&nbsp;</em>使用QQ登录</a></li>
+          <li><a href="#" class="jobs thirdPtyBtn"><em>&nbsp;</em>招聘方入口</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="regBox loginBox" id="loginPanel">
+			<div class="form">
+        <ul>
+          <li class="input_req">
+            <div class="frm">
+              <span class="prompt tipMsg" style="">邮箱</span>
+              <input type="text" data-em="email" data-type="email" id="myemaill" error-id="errorEmaill" class="txt mail current verification" style="border: 1px solid rgb(160, 160, 160);">
+              <em class="email curemail">&nbsp;</em>
+              <span class="error errorregisterl errorloginl" id="errorEmaill" style="">请输入正确邮箱地址</span>
+            </div>
+          </li>
+          <li class="input_req">
+            <div class="frm">
+              <span class="prompt tipMsg" style="">密码</span>
+              <input type="password" data-em="pwd" data-type="notnull" id="mypwdl" error-id="errorpasswordl" class="txt verification" style="border: 1px solid rgb(160, 160, 160);">
+              <em class="pwd">&nbsp;</em>
+              <span id="errorpasswordl" class="error errorregisterl errorloginl" style="">请输入密码</span>
+            </div>
+          </li>
+          <li class="input_req registerPanel" style="display: list-item;">
+            <div class="frm VerifCode">
+              <span class="prompt tipMsg">验证码</span>
+              <input type="text" id="mycaptchal" class="txt">
+              <img src="images/verfi_code.png" class="updateCaptcha" style="cursor: pointer" id="captchaImgl" title="刷新验证码">
+              <em class="pwd updateCaptcha">&nbsp;</em>
+              <span class="error errorregisterl" style="">请输入验证码</span>
+            </div>
+          </li>
+          <li>
+            <div class="frm">
+              <label class="remember"><input checked="checked" id="rememberMel" type="radio" class="rad">记住我</label>
+              <a href="#" class="forget">忘记密码?</a>
+            </div>
+          </li>
+          <li style="display: list-item;"><div class="frm"><a href="javascript:void(0)" id="loginBtnpop" class="registerBtn">登     录</a></div></li>
+          
+        </ul>
+      </div>
+			<div class="thirdPartyBtns">
+				<h2>还不是鸟窝用户？点击注册</h2>
+				<ul>
+					<!-- <li style="display: none;"><div class="frm"><a href="javascript:void(0)" id="loginBtn" class="registerBtn">注     册</a></div></li> -->
+          <li id="registerTipT" style="display: list-item;"><a href="javascript:void(0)" class="loginBtn">注     册</a></li>
+          <!-- <li style="display: none;" id="registerTip"><a href="javascript:void(0)" class="loginBtn">注     册</a></li> -->
+          <li><a href="#" class="weibo thirdPtyBtn"><em>&nbsp;</em>使用微博登录</a></li>
+          <li><a href="#" class="qq thirdPtyBtn"><em>&nbsp;</em>使用QQ登录</a></li>
+          <li><a href="#" class="jobs thirdPtyBtn"><em>&nbsp;</em>招聘方入口</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

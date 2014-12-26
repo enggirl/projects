@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>基本资料</title>
+	<link rel="stylesheet" href="../stylesheets/ui_base.css" />
+	<link rel="stylesheet" href="../stylesheets/ui_common.css" />
+	<link rel="stylesheet" href="../stylesheets/release_job.css" />
+    <link rel="stylesheet" href="../javascripts/css/ui-lightness/jquery-ui-1.10.4.min.css" />
+    <script type="text/javascript" src="../javascripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.10.4.min.js"></script>
+    <script type="text/javascript" src="../javascripts/cookie.js"></script>
+    <script type="text/javascript" src="../javascripts/index.js"></script>
+</head>
+<body>
+	<div class="headerWrap">
+		<div class="header">
+			<h1><a href="#" class="logo">鸟窝</a></h1>
+			<div class="search">
+				<div class="searchBox">
+					<input type="text" />
+					<a href="#" class="searchBtn"><em>&nbsp;</em></a>
+				</div>
+				<div class="cities">
+					<p><span>城市</span><a href="#" class="cityBtn"><em>&nbsp;</em></a></p>
+					<ul>
+						<li>北京</li>
+						<li>上海</li>
+					</ul>
+				</div>
+				<div class="history">
+					<a href="#">JavaScript</a>
+					<a href="#">nodeJS</a>
+					<a href="#">前端CSS</a>
+					<a href="#">设计师</a>
+				</div>
+			</div>
+			<ul class="nav">
+				<li><a href="#" class="current">找工作首页</a></li>
+				<li><a href="#">找人才首页</a></li>
+				<li><a href="#">HR面试消息</a></li>
+				<li><a href="#">完善简历</a></li>
+				<li><a href="#">昵称：猫猫鼠</a></li>
+				<li><a href="#">退出</a></li>
+			</ul>
+			<!-- <div class="login_info">
+				<a href="#">昵称：猫猫鼠</a>
+				<a href="#">退出</a>
+			</div> -->
+		</div>
+	</div>
+	<div class="mainWrap">
+		<div class="mainContainer">
+			<div class="main">
+
+				<!-- <div class="ml">
+				</div> -->
+				<!-- <div class="mm"> -->
+					<h2 class="h2Title">完善简历</h2>
+					<ul class="perfectResume">
+						<li class="current">
+							<h3><i>* </i>个人信息</h3>
+							<div class="form">
+								<div class="frm">
+									<span class="">姓       名：</span>
+									<input type="text" />
+									<span class="error">*请填写姓名</span>
+								</div>
+								<div class="frm">
+									<span class="">性       别：</span>
+									<label><input type="radio" value="1"  checked="checked" class="rad" name="sex">男</label>
+									<label><input type="radio" value="1"  class="rad" name="sex">女</label>
+									<span class="error">*请选择性别</span>
+								</div>
+								<div class="frm">
+									<span class="">出生年份：</span>
+									<input type="text" id="birthday"/>
+									<span class="error">*请填写出生日期</span>
+								</div>
+                                <div class="frm">
+									<span class="">婚姻状态：</span>
+                                    <select name="marriage" style="width:164px;" id="marriage">
+                                        <option selected="" value="">---请选择---</option>
+                                        <option value="0">未婚</option>
+                                        <option value="1" >已婚</option>
+                                        <option value="2">保密</option></select>
+									<span class="error">*请填写出生日期</span>
+								</div>
+								<div class="frm">
+									<span class="">手       机：</span>
+									<input type="text" />
+									<span class="error">*请填写手机号</span>
+								</div>
+								<div class="frm">
+									<span class="">邮       箱：</span>
+									<input type="text" />
+									<span class="error">*请填写手机号</span>
+								</div>
+                                <div class="frm">
+                                    <span class="">详细住址：</span>
+                                    <input type="text" />
+                                    <span class="error">*请填写出生日期</span>
+                                </div>
+							</div>
+							<div class="jobBtns">
+								<a href="#" class="btn">保&nbsp;存</a>
+							</div>
+						</li>
+						<li>
+							<h3><i>* </i> 期望职位  |  <span>更精准帮您推荐喜欢的职位</span></h3>
+							<div class="form">
+								<div class="frm">
+									<span class="">职位关键词</span>
+									<div class="posts">
+										<a href="#">JavaScript<i>×</i></a>
+										<a href="#">前端css<i>×</i></a>
+										<a href="#">nodeJS<i>×</i></a>
+										<a href="#">Designer<i>×</i></a>
+										<a href="#">前端css<i>×</i></a>
+										<a href="#">nodeJS<i>×</i></a>
+										<a href="#">Designer<i>×</i></a>
+									</div>
+									<div class="postInput">
+										<input type="text"><a href="#" class="addPost"><em>&nbsp;</em></a>
+									</div>
+									<span class="error">*请填写职位关键词，方便应聘方更方便的搜索您的职位</span>
+								</div>
+								<div class="frm">
+									<span class="">期望城市：</span>
+									<input type="text" />
+									<span class="error">*请填写城市</span>
+								</div>
+								<div class="frm">
+									<span class="">期望薪资：</span>
+									<input type="text" />
+									<span class="error">*请填写薪资</span>
+								</div>
+							</div>
+							<div class="jobBtns">
+								<a href="#" class="btn">保&nbsp;存</a>
+							</div>
+						</li>
+						<li>
+							<h3><i>* </i>工作经历 |  <span>最能体现自己的工作能力</span></h3>
+							<div class="form">
+								<div class="frm">
+									<span class="">公司名称：</span>
+									<input type="text" />
+									<span class="error">*请填写公司姓名</span>
+								</div>
+								<div class="frm">
+									<span class="">公司职位：</span>
+									<input type="text" />
+									<span class="error">*请填写公司职位</span>
+								</div>
+								<div class="frm">
+									<span class="">开始时间：</span>
+									<input type="text" id="startTimejob"/>
+									<span class="error">*请填写开始时间</span>
+								</div>
+								<div class="frm">
+									<span class="">结束时间：</span>
+									<input type="text" id="endTimejob"/>
+									<span class="error">*请填写结束时间</span>
+								</div>
+                                <div class="frm">
+									<span class="">薪资：</span>
+									<input type="text" id="moneyjob"/>
+									<span class="error">*请填写结束时间</span>
+								</div>
+								<div class="frm">
+									<span class="">工作描述：</span>
+									<textarea name="" id=""></textarea>
+									<span class="error">*请填写结束时间</span>
+								</div>
+							</div>
+							<div class="jobBtns">
+								<a href="#" class="btn">保&nbsp;存</a>
+							</div>
+							<div class="readonly">
+								<p><span class="itemNm">在职时间： </span> 2011年4月到2012年5月</p>
+								<p><span class="itemNm">公司名称： </span>北京蓝纤科技有限公司</p>
+								<p><span class="itemNm">公司职位：</span>WEB前端开发工程师</p>
+								<p><span class="itemNm">工作描述：</span> 担任JS+HTML5工程师、负责web前端开发、JS游戏引擎维护和开发、HTML5游戏开发</p>
+								<div class="jobBtns">
+									<a href="#" class="btnR">编&nbsp;辑</a><a href="#" class="btnR">删&nbsp;除</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h3><i>* </i>项目经验 |  <span>用人单位衡量人才的重要指标哦</span></h3>
+							<div class="form">
+								<div class="frm">
+									<span class="">项目名称：</span>
+									<input type="text" />
+									<span class="error">*请填写项目姓名</span>
+								</div>
+								<div class="frm">
+									<span class="">项目描述：</span>
+									<textarea name="" id=""></textarea>
+									<span class="error">*请填写项目描述</span>
+								</div>
+								<div class="frm">
+									<span class="">责任描述：</span>
+									<textarea name="" id=""></textarea>
+									<span class="error">*请填写责任描述</span>
+								</div>
+								<div class="frm">
+									<span class="">开始时间：</span>
+									<input type="text" />
+									<span class="error">*请填写开始时间</span>
+								</div>
+								<div class="frm">
+									<span class="">结束时间：</span>
+									<input type="text" />
+									<span class="error">*请填写结束时间</span>
+								</div>
+							</div>
+							<div class="jobBtns">
+								<a href="#" class="btn">保&nbsp;存</a>
+							</div>
+							<div class="readonly">
+								<p><span class="itemNm">项目时间：  </span> 2011年4月到2012年5月</p>
+								<p><span class="itemNm">工作名称：  </span>移动版开发</p>
+								<p><span class="itemNm">项目描述：</span>担任JS+HTML5工程师、负责web前端开发、JS游戏引擎维护和开发、HTML5游戏开发</p>
+								<p><span class="itemNm">责任描述：</span> 担任JS+HTML5工程师、负责web前端开发、JS游戏引擎维护和开发、HTML5游戏开发</p>
+								<div class="jobBtns">
+									<a href="#" class="btnR">编&nbsp;辑</a><a href="#" class="btnR">删&nbsp;除</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h3><i>* </i>教育经历 |  <span>可以提现你的专业及学习能力</span></h3>
+							<div class="form">
+								<div class="frm">
+									<span class="">学       历：</span>
+									<input type="text" />
+									<span class="error">*请填写学历</span>
+								</div>
+								<div class="frm">
+									<span class="">学       校：</span>
+									<input type="text" />
+									<span class="error">*请填写学校</span>
+								</div>
+								<div class="frm">
+									<span class="">专       业：</span>
+									<input type="text" />
+									<span class="error">*请填写专业</span>
+								</div>
+								<div class="frm">
+									<span class="">开始时间：</span>
+									<input type="text" />
+									<span class="error">*请填写开始时间</span>
+								</div>
+								<div class="frm">
+									<span class="">结束时间：</span>
+									<input type="text" />
+									<span class="error">*请填写结束时间</span>
+								</div>
+							</div>
+							<div class="jobBtns">
+								<a href="#" class="btn">保&nbsp;存</a>
+							</div>
+							<div class="readonly">
+								<p><span class="itemNm">教育时间：  </span>2011年4月到2012年5月</p>
+								<p><span class="itemNm">学&nbsp;校：</span>北大</p>
+								<p><span class="itemNm">学&nbsp;历： </span>本科</p>
+								<p><span class="itemNm">专&nbsp;业： </span>计算机</p>
+								<div class="jobBtns">
+									<a href="#" class="btnR">编&nbsp;辑</a><a href="#" class="btnR">删&nbsp;除</a>
+								</div>
+							</div>
+						</li>
+						<li>
+							<h3><i>* </i>雷达设置 |  <span>定制您的个性化</span></h3>
+							<div class="form">
+								<div class="frm">
+									<span class="">目前状态：</span>
+                                    <select name="current_situation" style="width:154px;" id="current_situation">
+                                        <option value="0">目前正在找工作</option>
+                                        <option value="1">半年内无换工作的计划</option>
+                                        <option value="2">一年内无换工作的计划</option>
+                                        <option value="3" selected="">观望有好的机会再考虑</option>
+                                        <option value="4">我暂时不想找工作</option>
+                                    </select>
+									<span class="error">*请选择目前状态</span>
+								</div>
+								<div class="frm">
+									<span class="lgspan">是否被单位搜索：</span>
+									<label><input type="radio" value="1"  checked="checked" class="rad" name="issearch">是</label>
+									<label><input type="radio" value="2"  class="rad" name="issearch">否</label>
+									<span class="error">*请选择性别</span>
+								</div>
+								<div class="frm">
+									<span class="">是否订阅：</span>
+									<label><input type="radio" value="1"  checked="checked" class="rad" name="rad">是</label>
+									<label><input type="radio" value="1"  class="rad" name="rad">否</label>
+									<span class="error">*请选择性别</span>
+								</div>
+								<div class="frm">
+									<span class="">订阅频率：</span>
+									<select name="" id="">
+										<option value="1">3天 / 次</option>
+										<option value="2">7天 / 次</option>
+									</select>
+									<span class="error">*请填写开始时间</span>
+								</div>
+								<div class="frm">
+									<span class="">订阅开始时间：</span>
+									<input type="text" id="on_line_time"/>
+									<span class="error">*请填写开始时间</span>
+								</div>
+                                <div class="frm">
+									<span class="">订阅结束时间：</span>
+									<input type="text" id="off_line_time"/>
+									<span class="error">*请填写结束时间</span>
+								</div>
+							</div>
+							<div class="jobBtns">
+								<a href="#" class="btn">保&nbsp;存</a>
+							</div>
+						</li>
+					</ul>
+					<div class="jobBtns">
+						<a href="#" class="btn">保存所有</a>
+					</div>
+				</div>
+			<!-- </div> -->
+			<div class="mr">
+				<div class="info">
+					<div class="userImg"><a href="#"><img src="../images/user_demo.jpg" alt="" /></a></div>
+					<div class="userInfo">
+						<p>苏冉</p>
+						<p>会员：5级</p>
+					</div>
+				</div>
+				<div class="cash">
+					<ul>
+						<li><span>签约金：1000</span><a href="#" class="btn">修   改</a></li>
+						<li><span>鸟窝币：1000</span><a href="#" class="btn">提   现</a></li>
+					</ul>
+				</div>
+				<div class="help">
+					<ul>
+						<li><a href="#" class="first">什么是鸟窝币？</a></li>
+						<li><a href="#">邀请面试如何玩？</a></li>
+						<li><a href="#">什么是签约金？</a></li>
+						<li class="more"><a href="#">更多教程</a></li>
+					</ul>
+					<div class="attention">
+						<a href="#" class="logo"></a>
+						<a href="#" class="focusOn">加关注</a>
+					</div>
+				</div>
+				<ul class="subNav">
+					<li><a href="#" class="tit tCurrent">我发起的面试</a></li>
+					<li><a href="#" class="current">待HR处理</a></li>
+					<li><a href="#">HR拒绝</a></li>
+					<li><a href="#">HR同意</a></li>
+					<li><a href="#">面试通过</a></li>
+					<li><a href="#">面试未通过</a></li>
+					<li><a href="#">试用期通过</a></li>
+					<li><a href="#">试用期未通过</a></li>
+					<li><a href="#" class="tit">HR发起的面试</a></li>
+					<li><a href="#">HR面试消息（1）</a></li>
+					<li><a href="#">我拒绝</a></li>
+					<li><a href="#">我同意</a></li>
+					<li><a href="#">面试通过</a></li>
+					<li><a href="#">面试未通过</a></li>
+					<li><a href="#">试用期通过</a></li>
+					<li><a href="#">试用期未通过</a></li>
+					<li><a href="#" class="tit">基本资料</a></li>
+					<li><a href="#" class="tit">我的收藏</a></li>
+					<li><a href="#" class="tit">系统消息</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footerWrap">
+		<div class="footer">
+			<div class="ftLogo">
+				<a href="#" class="logo">鸟窝</a>
+				<p>©2014 鸟窝 niaowo.mobi<br/>京ICP备13010988号-* </p>
+			</div>
+			<div class="about">
+				<h4>关于鸟窝</h4>
+				<p>为应聘方与招聘方创造直接价值与长尾价值</p>
+				<p class="more"><a href="#">了解更多...</a></p>
+			</div>
+			<div class="contact">
+				<h4>联系方式</h4>
+				<p>电话：15965482236</p>
+				<p>Q Q：939 898 101</p>
+				<p>邮箱：niaowo@163.com</p>
+			</div>
+			<div class="coWorker">
+				<h4>合作伙伴</h4>
+				<p><a href="#" class="first"></a></p>
+				<p><a href="#" class="second"></a></p>
+			</div>
+			<div class="friendLink">
+				<h4>友情链接</h4>
+				<a href="#">百度</a><a href="#">新浪</a>
+			</div>
+		</div>
+	</div>
+    <div class="mainpop" style="display: none" id="editJobpop">
+        <div class="form">
+            <div class="frm">
+                <span class="">公司名称：</span>
+                <input type="text">
+                <span class="error">*请填写公司姓名</span>
+            </div>
+            <div class="frm">
+                <span class="">公司职位：</span>
+                <input type="text">
+                <span class="error">*请填写公司职位</span>
+            </div>
+            <div class="frm">
+                <span class="">开始时间：</span>
+                <input type="text" id="startTimejobedit" class="timeDatepicker">
+                <span class="error">*请填写开始时间</span>
+            </div>
+            <div class="frm">
+                <span class="">结束时间：</span>
+                <input type="text" id="endTimejobedit" class="timeDatepicker">
+                <span class="error">*请填写结束时间</span>
+            </div>
+            <div class="frm">
+                <span class="">薪资：</span>
+                <input type="text" id="moneyjobedit">
+                <span class="error">*请填写结束时间</span>
+            </div>
+            <div class="frm">
+                <span class="">工作描述：</span>
+                <textarea name="" id="myjobdesedit"></textarea>
+                <span class="error">*请填写结束时间</span>
+            </div>
+            <div class="jobBtns">
+                <button class="btn" name="button" type="button" id="editjobhistory">确&nbsp;认</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

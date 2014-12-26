@@ -1,0 +1,22 @@
+.companyInfo{padding:30px 10px;margin-bottom:20px;background:#fff;color:#2c2c2c;font-size:14px;line-height:1.8;}
+.companyInfo .compImg img{border:1px solid #bcbdbd;}
+.companyInfo .cmpUrl a{color:#807d7d;text-decoration:underline;}
+.companyInfo .slide{height:100px;border:1px solid #000;}
+.members{overflow:hidden;padding:0 30px;background:#fff;}
+.members li{padding:30px 0;text-align:center;color:#6b6868;font-size:14px;margin-top:-1px;border-top:1px dashed #e8e8e8;}
+.members li .name{color:#2c2c2c;}
+
+/*jobDetail*/
+.jobDetail{padding:20px;background:#fff;font-size:12px;border:3px solid #00b9a0;}
+.jobDetail h4{margin:20px 0;color:#636363;}
+.jobDetail h5{margin:20px 0;color:#339999;font-size:14px;}
+.jobDetail p{color:#010101;line-height:1.8;}
+.jobDetail .hrInfo .hrIf .time{font-size:12px;}
+.jobBtns{margin:30px 0;text-align:right;}
+.jobBtns .btnR{display:inline-block;width:80px;height:25px;margin-right:5px;}
+
+
+
+
+
+

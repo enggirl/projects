@@ -1,0 +1,51 @@
+.interview .interviewList{margin-top:15px;padding:20px;background:#fff;border:2px dashed #27a695;}
+.interview li{overflow:hidden;zoom:1;margin-bottom:15px;}
+.interviewRequire{float:left;width:626px;}
+.interviewRequire .hrInfo{height:95px;padding-left:30px;padding-top:10px;background:#ebfafd;}
+.interviewRequire .myNeed{height:92px;padding-left:30px;padding-top:10px;background:#d8ecf0;color:#4e5053;font-size:15px;}
+.interviewOption{float:left;width:240px;}
+.interviewOption .interviewStatus{height:85px;padding-top:20px;background:#d5f1f7;text-align:center;color:#4e5053;font-size:15px;}
+.interviewOption .interviewBtns{height:80px;padding-left:25px;padding-top:22px;background:#b9dce4;}
+.interviewOption .interviewBtns a{margin-right:10px;margin-bottom:5px;}
+.interviewOption .via{padding-top:40px;height:65px;}
+.interviewOption .viaBtn{padding-top:40px;height:62px;}
+.interviewOption .del{background:#1a9fbc;border-color:#0b7086;}
+
+.jbHunter .jobHunterInfo{height:140px;padding-left:30px;padding-top:10px;background:#ebfafd;font-size:15px;color:#454343;}
+.jbHunter .via{height:90px;padding-top:60px;}
+.jbHunter .jhInfo{height:100px;}
+.jobHunterInfo .jhImg{float:left;margin-right:20px;}
+.jobHunterInfo .jhImg img{width:80px;height:80px;}
+.jhDetail{overflow:hidden;zoom:1;}
+.jhDetail ul{float:left;margin-right:30px;}
+.jhDetail li{margin:0;}
+.jobHunterInfo .interviewBtns{margin-right:30px;text-align:right;font-size:12px;}
+
+/*收藏*/
+.employment{overflow:hidden;zoom:1;margin:20px 0 30px;}
+.employment li{padding:15px;background:#fff;margin-top:-1px;border-top:1px dashed #e7e9ea;}
+.employment .current{background:#f5fdfc;}
+.employment .jhDetail li{padding:0 0 10px 0;background:none;border:none;min-height: unset;}
+.employment .jobHunterInfo{padding:0;background:none;}
+.employment .employBtns{text-align:right;}
+.employment .employBtns a{margin-right:10px;}
+
+
+/*directSearch*/
+.directSearch{overflow:hidden;zoom:1;margin-top:10px;margin-bottom:20px;}
+.directSearch li{cursor:pointer;float:left;width:215px;height:80px;padding-top:10px;margin-right:10px;border:1px dashed #1abc9c;color:#535353;font-size:15px;text-align:center;}
+.directSearch li.last{margin-right:0;}
+.directSearch .current{background:#fff;}
+
+.soldOut{margin-top:15px;}
+.soldOut li{float:left;width:448px;height:170px;padding-top:13px;margin-bottom:10px;margin-right:10px;background:#fff;border:1px dashed #1abc9c;color:#434343;font-size:15px;}
+.soldOut li p{padding-left:20px;margin-bottom:11px;}
+.soldOut li .btns{text-align:center;}
+.soldOut li .btns a{margin:0 3px;}
+.soldOut .current{background:#f5fdfc;}
+
+/*xixinliang*/
+.searchPeoples{margin: 10px;text-align: center;font-size: 20px;color:#27a695}
+.searchPeoples img{position: relative;top:8px}
+.searchPeoples a{color: #27a695}
+

@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>公司主页</title>
+	<link rel="stylesheet" href="../stylesheets/ui_base.css" />
+	<link rel="stylesheet" href="../stylesheets/ui_common.css" />
+	<link rel="stylesheet" href="../stylesheets/release_job.css" />
+    <link rel="stylesheet" href="../javascripts/css/ui-lightness/jquery-ui-1.10.4.min.css" />
+    <link rel="stylesheet" href="../javascripts/chosen/chosen.css" />
+    <script type="text/javascript" src="../javascripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-ui-1.10.4.min.js"></script>
+    <script type="text/javascript" src="../javascripts/cookie.js"></script>
+    <script type="text/javascript" src="../javascripts/chosen/chosen.jquery.js"></script>
+    <script type="text/javascript" src="../javascripts/index.js"></script>
+</head>
+<body>
+	<div class="headerWrap">
+		<div class="header">
+			<h1><a href="#" class="logo">鸟窝</a></h1>
+			<div class="search">
+				<div class="searchBox">
+					<input type="text" />
+					<a href="#" class="searchBtn"><em>&nbsp;</em></a>
+				</div>
+				<div class="cities">
+					<p><span>城市</span><a href="#" class="cityBtn"><em>&nbsp;</em></a></p>
+					<ul>
+						<li>北京</li>
+						<li>上海</li>
+					</ul>
+				</div>
+				<div class="history">
+					<a href="#">JavaScript</a>
+					<a href="#">nodeJS</a>
+					<a href="#">前端CSS</a>
+					<a href="#">设计师</a>
+				</div>
+			</div>
+			<ul class="nav">
+				<li><a href="#" class="current">找工作首页</a></li>
+				<li><a href="#">找人才首页</a></li>
+				<li><a href="#">HR面试消息</a></li>
+				<li><a href="#">完善简历</a></li>
+				<li><a href="#">昵称：猫猫鼠</a></li>
+				<li><a href="#">退出</a></li>
+			</ul>
+			<!-- <div class="login_info">
+				<a href="#">昵称：猫猫鼠</a>
+				<a href="#">退出</a>
+			</div> -->
+		</div>
+	</div>
+	<div class="mainWrap">
+		<div class="mainContainer">
+			<div class="main">
+				<!-- <div class="ml">
+				</div> -->
+				<!-- <div class="mm"> -->
+					<h2 class="h2Title">公司基本信息</h2>
+					<div class="form">
+						<div class="frm">
+							<span class="">LOGO</span>
+							<div class="file">
+								<span class="fImg"><img src="../images/file_default.png" alt="" /></span>
+								<a href="#">修改LOGO</a>
+							</div>
+							<!-- <span class="error">*请填写职位名称</span> -->
+						</div>
+						<div class="frm">
+							<span class="">公司名称</span>
+							<input type="text" />
+							<span class="error">*请填写昵称</span>
+						</div>
+						<div class="frm">
+							<span class="">公司性质</span>
+							<input type="text"/>
+							<span class="error">*请填写联系邮箱</span>
+						</div>
+						<div class="industryChooserSelect">
+							<span class="ispan">公司行业</span>
+                            <select name="industryChooser" style="width: 338px" id="add_industry" class=""><option value="">请选择</option><option value="121">安全和调查</option><option value="7">半导体</option><option value="146">包装和集装箱</option><option value="42">保险</option><option value="81">报纸</option><option value="145">玻璃、陶瓷和混凝土</option><option value="29">博彩</option><option value="37">博物馆和展览机构</option><option value="56">采矿/金属</option><option value="32">餐饮服务</option><option value="93">仓储</option><option value="22">超市</option><option value="102">程序开发</option><option value="82">出版</option><option value="131">慈善</option><option value="109">电脑游戏</option><option value="112">电器/电子制造</option><option value="8">电信</option><option value="24">电子产品</option><option value="127">动画</option><option value="10">法律服务</option><option value="108">翻译和本地化</option><option value="44">房地产</option><option value="60">纺织</option><option value="100">非营利组织管理</option><option value="106">风险投资和私募股权</option><option value="91">服务业</option><option value="19">服装和时尚</option><option value="68">高等教育</option><option value="147">工业自动化</option><option value="111">工艺美术</option><option value="78">公共安全</option><option value="59">公共基础设施</option><option value="79">公共政策</option><option value="98">公关传播</option><option value="11">管理咨询</option><option value="36">广电传媒</option><option value="1">国防和航空</option><option value="141">国际贸易和发展</option><option value="74">国际事务</option><option value="95">海事</option><option value="52">航空航天</option><option value="6">互联网</option><option value="54">化学</option><option value="18">化妆品</option><option value="86">环境服务</option><option value="47">会计</option><option value="110">活动服务</option><option value="87">货物包装及运送</option><option value="55">机械</option><option value="135">机械和工业设计</option><option value="101">集资</option><option value="118">计算机和网络安全</option><option value="4">计算机软件</option><option value="5">计算机网络</option><option value="3">计算机硬件</option><option value="26">家具</option><option value="88">家政服务</option><option value="124">健康、运动和健身</option><option value="49">建材</option><option value="48">建筑</option><option value="50">建筑和规划</option><option value="92">交通、汽车及铁路运输</option><option value="69">教育管理</option><option value="43">金融服务</option><option value="134">进出口</option><option value="38">精细工艺</option><option value="31">酒店</option><option value="71">军事</option><option value="144">可再生品和环境</option><option value="72">立法机关</option><option value="27">零售</option><option value="30">旅游观光</option><option value="9">律师</option><option value="126">媒体制作</option><option value="94">民航/航空</option><option value="90">民间和社会组织</option><option value="64">牧业</option><option value="114">纳米技术</option><option value="142">酿酒</option><option value="133">批发</option><option value="140">平面设计</option><option value="53">汽车</option><option value="137">人力资源</option><option value="25">日用品</option><option value="65">乳业</option><option value="128">商业地产</option><option value="138">商业用品和设备</option><option value="143">奢侈品和珠宝</option><option value="136">摄影</option><option value="99">设计</option><option value="122">设施服务</option><option value="12">生物技术</option><option value="57">石油和能源</option><option value="23">食品加工</option><option value="34">食品饮料</option><option value="97">市场研究</option><option value="80">市场营销与广告</option><option value="16">兽医</option><option value="132">数字化学习</option><option value="73">司法机关</option><option value="117">塑料</option><option value="33">体育</option><option value="20">体育器材</option><option value="120">替代性纠纷解决</option><option value="125">替代医学</option><option value="62">铁路设备制造</option><option value="46">投资管理</option><option value="45">投资银行</option><option value="85">图书馆</option><option value="51">土木工程</option><option value="123">外包/离岸外包</option><option value="113">网络媒体</option><option value="119">无线通讯</option><option value="39">舞台表演</option><option value="116">物流和供应链管理</option><option value="103">写作和编辑</option><option value="139">心理保健</option><option value="84">信息服务</option><option value="96">信息技术和服务</option><option value="75">行政机关</option><option value="40">休闲设施和服务</option><option value="70">学术研究</option><option value="21">烟草</option><option value="63">养殖</option><option value="14">医疗保健</option><option value="13">医疗服务</option><option value="17">医疗设备</option><option value="115">音乐</option><option value="41">银行</option><option value="83">印刷</option><option value="35">影视</option><option value="66">渔业</option><option value="28">娱乐</option><option value="58">造船</option><option value="104">招聘和猎聘</option><option value="148">政府公关</option><option value="107">政治组织</option><option value="77">执法机关</option><option value="76">执行机关</option><option value="61">纸品与林木产品</option><option value="15">制药</option><option value="130">智囊团</option><option value="67">中小学教育</option><option value="105">专业培训和指导</option><option value="129">资本市场</option><option value="89">宗教机构</option></select>
+                            <span class="error">*请填写相关简介</span>
+						</div>
+						<div class="frm">
+							<span class="">网       址</span>
+							<input type="text" />
+							<span class="error">*请填写相关简介</span>
+						</div>
+						<div class="frm">
+							<span class="">融资阶段</span>
+							<input type="text" />
+							<span class="error">*请填写相关简介</span>
+						</div>
+					</div>
+					<h2 class="h2Title">团队核心成员</h2>
+					<div class="form">
+						<div class="frm">
+							<span class="">成员头像</span>
+							<div class="file">
+								<span class="fImg"><img src="../images/file_default.png" alt="" /></span>
+								<a href="#">上传照片</a>
+							</div>
+							<!-- <span class="error">*请填写职位名称</span> -->
+						</div>
+						<div class="frm">
+							<span class="">成员姓名</span>
+							<input type="text" />
+							<span class="error">*请填写昵称</span>
+						</div>
+						<div class="frm">
+							<span class="">成员职位</span>
+							<input type="text" />
+							<span class="error">*请填写昵称</span>
+						</div>
+					</div>
+					<div class="jobBtns">
+						<!-- <a href="#" class="btnR">发起面试</a><a href="#" class="btnR">收    藏</a> -->
+						<a href="#" class="btn">添加成员</a>
+					</div>
+					<ul class="Imgslist userImgsList">
+						<li>
+							<div class="userImg">
+								<span class="uImg"><img src="../images/placeDemo.jpg" alt="" /></span>
+							</div>
+							<p>王一鸣</p>
+							<p>CEO</p>
+						</li>
+						<li>
+							<div class="userImg">
+								<span class="uImg"><img src="../images/placeDemo.jpg" alt="" /></span>
+							</div>
+							<p>王一鸣</p>
+							<p>CEO</p>
+						</li>
+					</ul>
+					<h2 class="h2Title">公司场景展示</h2>
+					<div class="form">
+						<div class="frm">
+							<span class="">公司图片</span>
+							<div class="file">
+								<span class="fImg"><img src="../images/file_default.png" alt="" /></span>
+								<a href="#">上传照片</a>
+							</div>
+							<!-- <span class="error">*请填写职位名称</span> -->
+						</div>
+						<div class="frm">
+							<span class="">场景名称</span>
+							<input type="text" />
+							<span class="error">*请填写昵称</span>
+						</div>
+					</div>
+					<div class="jobBtns">
+						<!-- <a href="#" class="btnR">发起面试</a><a href="#" class="btnR">收    藏</a> -->
+						<a href="#" class="btn">添加照片</a>
+					</div>
+					<ul class="Imgslist placeImgslist">
+						<li>
+							<div class="placeImg">
+								<span class="pImg"><img src="../images/placeDemo.jpg" alt="" /></span>
+								<a href="#">修改</a>
+							</div>
+							<p>办公场所</p>
+						</li>
+						<li>
+							<div class="placeImg">
+								<span class="pImg"><img src="../images/placeDemo.jpg" alt="" /></span>
+								<a href="#">修改</a>
+							</div>
+							<p>办公场所</p>
+						</li>
+						<li>
+							<div class="placeImg">
+								<span class="pImg"><img src="../images/placeDemo.jpg" alt="" /></span>
+								<a href="#">修改</a>
+							</div>
+							<p>办公场所</p>
+						</li>
+						<li>
+							<div class="placeImg">
+								<span class="pImg"><img src="../images/placeDemo.jpg" alt="" /></span>
+								<a href="#">修改</a>
+							</div>
+							<p>办公场所</p>
+						</li>
+					</ul>
+					<div class="form">
+						<div class="frm">
+							<span class="">公司介绍</span>
+							<textarea name="" id=""></textarea>
+							<span class="error">*请填写昵称</span>
+						</div>
+					</div>
+					<div class="jobBtns">
+						<!-- <a href="#" class="btnR">发起面试</a><a href="#" class="btnR">收    藏</a> -->
+						<a href="#" class="btn">保&nbsp;存</a>
+					</div>
+				</div>
+			<!-- </div> -->
+			<div class="mr">
+				<div class="info">
+					<div class="userImg"><a href="#"><img src="../images/user_demo.jpg" alt="" /></a></div>
+					<div class="userInfo">
+						<p>苏冉</p>
+						<p>会员：5级</p>
+					</div>
+				</div>
+				<div class="cash">
+					<ul>
+						<li><span>签约金：1000</span><a href="#" class="btn">修   改</a></li>
+						<li><span>鸟窝币：1000</span><a href="#" class="btn">提   现</a></li>
+					</ul>
+				</div>
+				<div class="help">
+					<ul>
+						<li><a href="#" class="first">什么是鸟窝币？</a></li>
+						<li><a href="#">邀请面试如何玩？</a></li>
+						<li><a href="#">什么是签约金？</a></li>
+						<li class="more"><a href="#">更多教程</a></li>
+					</ul>
+					<div class="attention">
+						<a href="#" class="logo"></a>
+						<a href="#" class="focusOn">加关注</a>
+					</div>
+				</div>
+				<ul class="subNav">
+					<li><a href="#" class="tit tCurrent">我发起的面试</a></li>
+					<li><a href="#" class="current">待HR处理</a></li>
+					<li><a href="#">HR拒绝</a></li>
+					<li><a href="#">HR同意</a></li>
+					<li><a href="#">面试通过</a></li>
+					<li><a href="#">面试未通过</a></li>
+					<li><a href="#">试用期通过</a></li>
+					<li><a href="#">试用期未通过</a></li>
+					<li><a href="#" class="tit">HR发起的面试</a></li>
+					<li><a href="#">HR面试消息（1）</a></li>
+					<li><a href="#">我拒绝</a></li>
+					<li><a href="#">我同意</a></li>
+					<li><a href="#">面试通过</a></li>
+					<li><a href="#">面试未通过</a></li>
+					<li><a href="#">试用期通过</a></li>
+					<li><a href="#">试用期未通过</a></li>
+					<li><a href="#" class="tit">基本资料</a></li>
+					<li><a href="#" class="tit">我的收藏</a></li>
+					<li><a href="#" class="tit">系统消息</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footerWrap">
+		<div class="footer">
+			<div class="ftLogo">
+				<a href="#" class="logo">鸟窝</a>
+				<p>©2014 鸟窝 niaowo.mobi<br/>京ICP备13010988号-* </p>
+			</div>
+			<div class="about">
+				<h4>关于鸟窝</h4>
+				<p>为应聘方与招聘方创造直接价值与长尾价值</p>
+				<p class="more"><a href="#">了解更多...</a></p>
+			</div>
+			<div class="contact">
+				<h4>联系方式</h4>
+				<p>电话：15965482236</p>
+				<p>Q Q：939 898 101</p>
+				<p>邮箱：niaowo@163.com</p>
+			</div>
+			<div class="coWorker">
+				<h4>合作伙伴</h4>
+				<p><a href="#" class="first"></a></p>
+				<p><a href="#" class="second"></a></p>
+			</div>
+			<div class="friendLink">
+				<h4>友情链接</h4>
+				<a href="#">百度</a><a href="#">新浪</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

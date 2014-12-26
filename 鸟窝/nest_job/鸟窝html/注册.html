@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" href="stylesheets/ui_base.css" />
+	<link rel="stylesheet" href="stylesheets/ui_common.css" />
+    <link rel="stylesheet" href="stylesheets/register.css" />
+    <link rel="stylesheet" href="javascripts/css/ui-lightness/jquery-ui-1.10.4.min.css" />
+    <script type="text/javascript" src="javascripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="javascripts/jquery-ui-1.10.4.min.js"></script>
+    <script type="text/javascript" src="javascripts/index.js"></script>
+</head>
+<body>
+	<div class="headerWrap">
+		<div class="header">
+			<h1><a href="#" class="logo">鸟窝</a></h1>
+		<!--	<div class="search">
+				<div class="searchBox">
+					<input type="text" />
+					<a href="#" class="searchBtn"><em>&nbsp;</em></a>
+				</div>
+				<div class="cities">
+					<p><span>城市</span><a href="#" class="cityBtn"><em>&nbsp;</em></a></p>
+					<ul>
+						<li>北京</li>
+						<li>上海</li>
+					</ul>
+				</div>
+				<div class="history">
+					<a href="#">JavaScript</a>
+					<a href="#">nodeJS</a>
+					<a href="#">前端CSS</a>
+					<a href="#">设计师</a>
+				</div>
+			</div>-->
+            <div class="search">
+                <div class="searchBox loginTip" data-msgtip="请填写印记">
+                    <input type="text" style="color:#8f8f8f;text-align: left;line-height: 30px" value=" 输入职位名称，如：销售" id="searchJobs">
+                    <a href="#" class="searchBtn"><em>&nbsp;</em></a>
+                </div>
+                <div class="cities">
+                    <p id="js_searchCity"><span>城市</span><a href="javascript:void(0)" class="cityBtn"><em>&nbsp;</em></a></p>
+                    <ul>
+                        <li>北京</li>
+                        <li>上海</li>
+                    </ul>
+                </div>
+                <div class="history">
+                    <a href="#">JavaScript</a>
+                    <a href="#">nodeJS</a>
+                    <a href="#">前端CSS</a>
+                    <a href="#">设计师</a>
+                </div>
+            </div>
+			<ul class="nav">
+				<li><a href="#" class="current">找工作首页</a></li>
+				<li><a href="#">找人才首页</a></li>
+				<li><a href="#">HR面试消息</a></li>
+				<li><a href="#">完善简历</a></li>
+				<li><a href="#">昵称：猫猫鼠</a></li>
+				<li><a href="#">退出</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="mainWrap">
+		<div class="mainContainer">
+			<div class="main">
+				<div class="ml">
+					<h2 class="regH2">推荐公司</h2>
+					<ul class="brands">
+						<li><a href="#" class="baidu"><span>百度</span></a></li>
+						<li><a href="#" class="baiduyun"><span>百度云</span></a></li>
+						<li><a href="#" class="huaban"><span>花瓣</span></a></li>
+						<li><a href="#" class="oneshop"><span>1号店</span></a></li>
+						<li><a href="#" class="jd"><span>京东</span></a></li>
+						<li><a href="#" class="sina"><span>新浪</span></a></li>
+					</ul>
+				</div>
+				<div class="mm">
+         <!--  <ul class="mSubNav">
+            <li><a href="#" class="findTit">发现</a></li>
+            <li><a href="javascript:void(0)" class="f_current">JS</a></li>
+            <li><a href="javascript:void(0)" class="f_btn">CSS</a></li>
+            <li><a href="javascript:void(0)" class="f_btn">UI</a></li>
+            <li><a href="javascript:void(0)" class="f_btn">PM</a></li>
+            <li><a href="#" class="topTit">热门</a></li>
+            <li><a href="#" class="t_current">JS</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">UI</a></li>
+            <li><a href="#">PM</a></li>
+          </ul> -->
+
+<!-- 					<h2 class="indexH2">嗨，给自己期望的工作留点印记吧，才能进行下一步哦！！！</h2>
+ -->
+                    <ul class="procGuide pgd1">
+ 						<li><a href="#" class="current first">等待HR处理</a></li>
+ 						<li><a href="#" class="second">HR已查看简历</a></li>
+ 						<li class="third"><a href="#">HR同意</a></li>
+ 						<li><a href="#" class="fourth">面试通过</a></li>
+ 						<li><a href="#" class="fifth">试用期通过</a></li>
+ 						<li class="last sixth"><a href="#">恭喜</a></li>
+ 					</ul>
+					<div class="processorBar">
+						<div class="pb p0"></div>
+					</div>
+					<div class="procGuide">
+						<ul class="pgd2">
+	 						<li><a href="#" class="third">HR拒绝</a></li>
+	 						<li><a href="#" class="fourth">面试未通过</a></li>
+	 						<li><a href="#" class="fifth">试用期未通过</a></li>
+	 						<li class="last"></li>
+	 					</ul>
+					</div>
+ 					
+ 					<ul class="menuBar clearfix">
+						<li><span class="tips"><i>发现</i></span></li>
+						<li><a href="#" class="current">JavaScript</a></li>
+						<li><a href="#">前端CSS</a></li>
+						<li><a href="#">移动端UI</a></li>
+						<li><a href="#">前端CSS</a></li>
+						<li><a href="#">移动端UI</a></li>
+					</ul>
+          <div class="postForm">
+              <div class="hopePost">
+                  <div class="frm">
+                      <span>期望职位：</span>
+                      <div class="posts" id="addHopePanel">
+
+                          <a href="javascript:void(0)" style="">js<i class="deleteHope" title="删除">×</i></a></div>
+                      <div class="postInput">
+                          <input type="text" id="addHopeContent"><a href="javascript:void(0)" id="addHope" class="addPost"><em>&nbsp;</em></a>
+                      </div>
+                  </div>
+                  <div class="frm">
+                      <span>期望城市：</span>
+                      <div class="postInput">
+                          <input type="text" id="cityHopes">
+                      </div>
+                  </div>
+                  <a href="javascript:void(0)" id="saveHopes" class="saveBtn">保存印记</a>
+              </div>
+          </div>
+				</div>
+			</div>
+			<div class="mr">
+                <div class="login_box">
+                    <div class="form">
+                        <ul>
+                            <li class="input_req">
+                                <div class="frm">
+                                    <span class="prompt tipMsg" style="display: block;">邮箱</span>
+                                    <input type="text" data-em="email" data-type="email" id="myemail" error-id="errorEmail" class="txt mail current verification" style="border: 1px solid rgb(160, 160, 160);">
+                                    <em class="email">&nbsp;</em>
+                                    <span class="error errorregister errorlogin" id="errorEmail" style="display: block;">请输入正确邮箱地址</span>
+                                </div>
+                            </li>
+                            <li class="input_req">
+                                <div class="frm">
+                                    <span class="prompt tipMsg" style="display: block;">密码</span>
+                                    <input type="password" data-em="pwd" data-type="notnull" id="mypwd" error-id="errorpassword" class="txt verification" style="border: 1px solid rgb(160, 160, 160);">
+                                    <em class="pwd">&nbsp;</em>
+                                    <span id="errorpassword" class="error errorregister errorlogin" style="display: block;">请输入密码</span>
+                                </div>
+                            </li>
+                            <li class="input_req registerPanel" style="display: list-item;">
+                                <div class="frm">
+                                    <span class="prompt tipMsg" style="display: block;">重复密码</span>
+                                    <input type="password" data-em="pwd" data-type="notnull" id="mypwdReport" error-id="errorpasswordreport" class="txt verification" style="border: 1px solid rgb(160, 160, 160);">
+                                    <em class="pwd">&nbsp;</em>
+                                    <span id="errorpasswordreport" class="error errorregister errorlogin" style="display: block;">两次密码不一样</span>
+                                </div>
+                            </li>
+                            <li class="input_req registerPanel" style="display: list-item;">
+                                <div class="frm VerifCode">
+                                    <span class="prompt tipMsg">验证码</span>
+                                    <input type="text" id="mycaptcha" class="txt">
+                                    <img src="images/verfi_code.png" class="updateCaptcha" style="cursor: pointer" id="captchaImg" title="刷新验证码">
+                                    <em class="pwd updateCaptcha">&nbsp;</em>
+                                    <span class="error errorregister" style="display: block;">请输入验证码</span>
+                                </div>
+                            </li>
+                            <li class="registerPanel" style="display: list-item;">
+                                <div class="frm">
+                                    <span>类型</span>
+                                    <label><input type="radio" value="1" checked="checked" id="user_type" class="rad" name="rad">应聘方</label>
+                                    <label><input type="radio" value="2" class="rad" name="rad">招聘方</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="frm">
+                                    <label class="remember"><input checked="checked" id="rememberMe" type="radio" class="rad">记住我</label>
+                                    <a href="#" class="forget">忘记密码?</a>
+                                </div>
+                            </li>
+                            <li class="registerPanel" style="display: list-item;">
+                                <div class="frm">
+                                    <label><input type="checkbox" checked="checked" id="registerAgree" class="rad"><a href="javascript:void(0)" class="deal">已阅读并同意《鸟窝用户协议》</a></label>
+                                </div>
+                            </li>
+                            <li style="display: list-item;"><div class="frm"><a href="javascript:void(0)" id="registerBtn" class="registerBtn">注     册</a></div></li>
+                            <li style="display: none;"><div class="frm"><a href="javascript:void(0)" id="loginBtn" class="registerBtn">登     录</a></div></li>
+                            <li id="loginTip" style="display: list-item;"><a href="javascript:void(0)" class="loginBtn">登     录</a></li>
+                            <li style="display: none;" id="registerTip"><a href="javascript:void(0)" class="loginBtn">注     册</a></li>
+                            <li><a href="#" class="weibo thirdPtyBtn"><em>&nbsp;</em>使用微博登录</a></li>
+                            <li><a href="#" class="qq thirdPtyBtn"><em>&nbsp;</em>使用QQ登录</a></li>
+                            <li><a href="#" class="jobs thirdPtyBtn"><em>&nbsp;</em>招聘方入口</a></li>
+                        </ul>
+                    </div>
+                </div>
+				<div class="help">
+					<ul>
+						<li><a href="#" class="first">什么是鸟窝币？</a></li>
+						<li><a href="#">邀请面试如何玩？</a></li>
+						<li><a href="#">什么是签约金？</a></li>
+						<li class="more"><a href="#">更多教程</a></li>
+					</ul>
+					<div class="attention">
+						<a href="#" class="logo"></a>
+						<a href="#" class="focusOn">加关注</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footerWrap">
+		<div class="footer">
+			<div class="ftLogo">
+				<a href="#" class="logo">鸟窝</a>
+				<p>©2014 鸟窝 niaowo.mobi<br/>京ICP备13010988号-* </p>
+			</div>
+			<div class="about">
+				<h4>关于鸟窝</h4>
+				<p>为应聘方与招聘方创造直接价值与长尾价值</p>
+				<p class="more"><a href="#">了解更多...</a></p>
+			</div>
+			<div class="contact">
+				<h4>联系方式</h4>
+				<p>电话：15965482236</p>
+				<p>Q Q：939 898 101</p>
+				<p>邮箱：niaowo@163.com</p>
+			</div>
+			<div class="coWorker">
+				<h4>合作伙伴</h4>
+				<p><a href="#" class="first"></a></p>
+				<p><a href="#" class="second"></a></p>
+			</div>
+			<div class="friendLink">
+				<h4>友情链接</h4>
+				<a href="#">百度</a><a href="#">新浪</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

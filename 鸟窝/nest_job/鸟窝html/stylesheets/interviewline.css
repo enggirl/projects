@@ -1,0 +1,74 @@
+.interviewline{
+    height: 82px;
+    background: #27a695;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+.interviewline .clockTitle,.interviewline .clockTitleline{
+    float: left;
+}
+.interviewline .clockTitleline{
+    margin-left:5px
+}
+.interviewline .line{
+    height: 0px;
+    border: 2px solid #fff;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom:38px;
+    margin-top: -3px;
+    width: 100%;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    z-index: 100;
+    opacity: 0.8;
+}
+.interviewline .maintitle {
+    width: 100px;
+    color: #fff;
+    font-size: 13px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    position: relative;
+    background-color: #27a695;
+    border: 1px solid #fff;
+}
+.interviewline .maintitleicon {
+    width: 0;
+    height: 0;
+    left: 37px;
+    position: relative;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffffff;
+}
+.interviewline .maintitleline {
+    width: 100px;
+    color: #27a695;
+    font-size: 13px;
+    left: 10px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    position: relative;
+    top: 6px;
+    background-color: #ffffff;
+}
+.interviewline .maintitleiconline {
+    width: 0;
+    height: 0;
+    left: 48px;
+    position: relative;
+    top:5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ffffff;
+}

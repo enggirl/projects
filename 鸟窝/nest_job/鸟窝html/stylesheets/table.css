@@ -1,0 +1,4 @@
+table{margin-top:20px;width:100%;border:1px solid #09bfbf;}
+table th{height:40px;line-height:40px;background:#09bfbf;margin-left:-1px;text-align:center;color:#f6f6f6;font-size:15px;border-left:1px solid #fff;}
+table .first{border:none;}
+table td{height:50px;padding-left:20px;color:#2c2c2c;border-left:1px solid #09bfbf;border-bottom:1px solid #09bfbf;font-size:15px;}
