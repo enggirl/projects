@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+   <topic>
+      <tags></tags>
+      <weight>50</weight>
+      <keywords></keywords>
+      <status>0</status>
+      <categoryId>1052</categoryId>
+      <breadcrumbId>224834</breadcrumbId>
+      <mainImage></mainImage>
+      <version>11</version>
+      <id>14875</id>
+      <thumbnail></thumbnail>
+      <description></description>
+      <name>Dior2014东京大秀H5专题</name>
+      <expireDate>2015-03-11 11:18:43</expireDate>
+      <path>/special/diortokyo2014/</path>
+      <hot>0</hot>
+      <focus>0</focus>
+      <topicTime>2014-12-11 11:18:43</topicTime>
+   </topic>
+   <pages>
+      <page>
+         <id>31095</id>
+         <status>0</status>
+         <expireDate>2015-03-12 14:46:25</expireDate>
+         <name>index.shtml</name>
+         <path>index.shtml</path>
+         <type>0</type>
+         <url>http://fashion.ifeng.com/trends/special/diortokyo2014/index.shtml</url>
+         <version>35</version>
+      </page>
+   </pages>
+</data>
