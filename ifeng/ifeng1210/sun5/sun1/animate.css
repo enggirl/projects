@@ -1,0 +1,167 @@
+/*中间飞向右上角*/
+@-webkit-keyframes aniCenterflyRightUp {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        top: 48%;
+        right: 39%;
+    }
+
+
+    100% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        top: 5%;
+        right: -1%;
+    }
+}
+
+@keyframes aniCenterflyRightUp {
+    0% {
+        transform: translate3d(0px, 0px, 0px)
+    }
+
+    20% {
+        transform: translate3d(0px, 0px, 0px)
+    }
+
+    40% {
+        transform: translate3d(0px, 0px, 0px)
+    }
+
+    60% {
+        transform: translate3d(0px, 0px, 0px)
+    }
+
+    80% {
+        transform: translate3d(0px, 0px, 0px)
+    }
+
+    100% {
+        transform: translate3d(0px, 0px, 0px)
+    }
+}
+.aniCenterflyRightUp{
+    -webkit-animation: aniCenterflyRightUp 2s ease-out !important;
+    animation: aniCenterflyRightUp 2s ease-out !important;
+}
+
+/*闪烁*/
+@-webkit-keyframes eleCircleBlink {
+    0% {
+        -webkit-opacity:0;
+    }
+    100% {
+        -webkit-opacity:1;
+    }
+}
+
+@-moz-keyframes eleCircleBlink {
+    0% {
+        -moz-opacity:0;
+    }
+    100% {
+        -moz-opacity:1;
+    }
+}
+
+@keyframes eleCircleBlink {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.blinks{
+    -webkit-animation: eleCircleBlink 2s linear infinite;
+    -moz-animation: eleCircleBlink 2s linear infinite;
+    -o-animation: eleCircleBlink 2s linear infinite;
+    animation: eleCircleBlink 2s linear infinite;
+}
+
+/*逐渐显示、放大*/
+@-webkit-keyframes graduallyRevealed {
+    0% {
+        -webkit-transform:scale(1,1);
+        -webkit-opacity:0;
+    }
+    50% {
+        -webkit-transform:scale(2,2);
+    }
+    100% {
+        -webkit-transform:scale(1,1);
+        -webkit-opacity:1;
+    }
+}
+
+@-moz-keyframes graduallyRevealed {
+    0% {
+        -moz-transform:scale(1,1);
+        -moz-opacity:0;
+    }
+    50% {
+        -moz-transform:scale(2,2);
+    }
+    100% {
+        -moz-transform:scale(1,1);
+        -moz-opacity:1;
+    }
+}
+
+@keyframes graduallyRevealed {
+    0% {
+        transform:scale(1,1);
+        opacity:0;
+    }
+    50% {
+        transform:scale(2,2);
+    }
+    100% {
+        transform:scale(1,1);
+        opacity:1;
+    }
+}
+.graduallyRevealed{
+    -webkit-animation: graduallyRevealed 2s linear;
+    -moz-animation: graduallyRevealed 2s linear;
+    -o-animation: graduallyRevealed 2s linear;
+    animation: graduallyRevealed 2s linear;
+}
+
+.opacityShow{
+    -webkit-animation: eleCircleBlink 2s linear;
+    -moz-animation: eleCircleBlink 2s linear;
+    -o-animation: eleCircleBlink 2s linear;
+    animation: eleCircleBlink 2s linear;
+}
+
+/*跳动*/
+@-webkit-keyframes bounce {
+    0%  {transform: translateY(0px);}
+    50%  {transform: translateY(5px);}
+    100%  {transform: translateY(0px);}
+}
+
+@-moz-keyframes bounce {
+    0%  {transform: translateY(0px);}
+    50%  {transform: translateY(5px);}
+    100%  {transform: translateY(0px);}
+}
+@-o-keyframes bounce {
+    0%  {transform: translateY(0px);}
+    50%  {transform: translateY(5px);}
+    100%  {transform: translateY(0px);}
+}
+@keyframes bounce {
+    0%  {transform: translateY(0px);}
+    50%  {transform: translateY(5px);}
+    100%  {transform: translateY(0px);}
+}
+.bounce{
+    -webkit-animation: bounce 3s linear infinite;
+    -moz-animation: bounce 3s linear infinite;
+    -o-animation: bounce 3s linear infinite;
+    animation: bounce 3s linear infinite;
+}
+/*循环放大缩小*/
+
+

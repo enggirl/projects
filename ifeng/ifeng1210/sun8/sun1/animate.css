@@ -1,0 +1,273 @@
+/*中间飞向右上角*/
+@-webkit-keyframes aniCenterflyRightUp {
+    0% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        top: 48%;
+        right: 39%;
+    }
+
+
+    100% {
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        top: 5%;
+        right: -1%;
+    }
+}
+
+@keyframes aniCenterflyRightUp {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        top: 48%;
+        right: 39%;
+    }
+
+
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+        top: 5%;
+        right: -1%;
+    }
+}
+.aniCenterflyRightUp{
+    -webkit-animation: aniCenterflyRightUp 2s ease-out !important;
+    animation: aniCenterflyRightUp 2s ease-out !important;
+}
+
+/*闪烁*/
+@-webkit-keyframes eleCircleBlink {
+    0% {
+        -webkit-opacity:0;
+    }
+    100% {
+        -webkit-opacity:1;
+    }
+}
+
+@-moz-keyframes eleCircleBlink {
+    0% {
+        -moz-opacity:0;
+    }
+    100% {
+        -moz-opacity:1;
+    }
+}
+
+@keyframes eleCircleBlink {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.blinks{
+    -webkit-animation: eleCircleBlink 2s linear infinite;
+    -moz-animation: eleCircleBlink 2s linear infinite;
+    -o-animation: eleCircleBlink 2s linear infinite;
+    animation: eleCircleBlink 2s linear infinite;
+}
+.blinks1{
+    -webkit-animation: eleCircleBlink 0.5s linear infinite;
+    -moz-animation: eleCircleBlink 0.5s linear infinite;
+    -o-animation: eleCircleBlink 0.5s linear infinite;
+    animation: eleCircleBlink 0.5s linear infinite;
+}
+
+/*逐渐显示、放大*/
+@-webkit-keyframes graduallyRevealed {
+    0% {
+        -webkit-transform:scale(1,1);
+        -webkit-opacity:0;
+    }
+    50% {
+        -webkit-transform:scale(2,2);
+    }
+    100% {
+        -webkit-transform:scale(1,1);
+        -webkit-opacity:1;
+    }
+}
+
+@-moz-keyframes graduallyRevealed {
+    0% {
+        -moz-transform:scale(1,1);
+        -moz-opacity:0;
+    }
+    50% {
+        -moz-transform:scale(2,2);
+    }
+    100% {
+        -moz-transform:scale(1,1);
+        -moz-opacity:1;
+    }
+}
+
+@keyframes graduallyRevealed {
+    0% {
+        transform:scale(1,1);
+        opacity:0;
+    }
+    50% {
+        transform:scale(2,2);
+    }
+    100% {
+        transform:scale(1,1);
+        opacity:1;
+    }
+}
+.graduallyRevealed{
+    -webkit-animation: graduallyRevealed 2s linear;
+    -moz-animation: graduallyRevealed 2s linear;
+    -o-animation: graduallyRevealed 2s linear;
+    animation: graduallyRevealed 2s linear;
+}
+
+.opacityShow{
+    -webkit-animation: eleCircleBlink 2s linear;
+    -moz-animation: eleCircleBlink 2s linear;
+    -o-animation: eleCircleBlink 2s linear;
+    animation: eleCircleBlink 2s linear;
+}
+
+/*跳动*/
+@-webkit-keyframes bounce {
+    0%  {-webkit-transform: translateY(0px);}
+    50%  {-webkit-transform: translateY(5px);}
+    100%  {-webkit-transform: translateY(0px);}
+}
+
+@-moz-keyframes bounce {
+    0%  {-moz-transform: translateY(0px);}
+    50%  {-moz-transform: translateY(5px);}
+    100%  {-moz-transform: translateY(0px);}
+}
+@-o-keyframes bounce {
+    0%  {-o-transform: translateY(0px);}
+    50%  {-o-transform: translateY(5px);}
+    100%  {-o-transform: translateY(0px);}
+}
+@keyframes bounce {
+    0%  {transform: translateY(0px);}
+    50%  {transform: translateY(5px);}
+    100%  {transform: translateY(0px);}
+}
+.bounce{
+    -webkit-animation: bounce 3s linear infinite;
+    -moz-animation: bounce 3s linear infinite;
+    -o-animation: bounce 3s linear infinite;
+    animation: bounce 3s linear infinite;
+}
+/*循环放大缩小*/
+@-webkit-keyframes circulationScale {
+    0% {
+        -webkit-transform:scale(1,1);
+    }
+    50% {
+        -webkit-transform:scale(1.1,1.1);
+    }
+    100% {
+        -webkit-transform:scale(1,1);
+    }
+}
+
+@-moz-keyframes circulationScale {
+    0% {
+        -moz-transform:scale(1,1);
+    }
+    50% {
+        -moz-transform:scale(1.1,1.1);
+    }
+    100% {
+        -moz-transform:scale(1,1);
+    }
+}
+@-o-keyframes circulationScale {
+    0% {
+        -o-transform:scale(1,1);
+    }
+    50% {
+        -o-transform:scale(1.1,1.1);
+    }
+    100% {
+        -o-transform:scale(1,1);
+    }
+}
+
+@keyframes circulationScale {
+    0% {
+        transform:scale(1,1);
+    }
+    50% {
+        transform:scale(1.1,1.1);
+    }
+    100% {
+        transform:scale(1,1);
+    }
+}
+.circulationScale{
+    -webkit-animation: circulationScale 3s linear infinite;
+    -moz-animation: circulationScale 3s linear infinite;
+    -o-animation: circulationScale 3s linear infinite;
+    animation: circulationScale 3s linear infinite;
+}
+/*慢慢显示*/
+@-webkit-keyframes accordingSlowly {
+    0% {
+        -webkit-opacity:0;
+    }
+    100% {
+        -webkit-opacity:1;
+    }
+}
+
+@-moz-keyframes accordingSlowly {
+    0% {
+        -moz-opacity:0;
+    }
+    100% {
+        -moz-opacity:1;
+    }
+}
+@-o-keyframes accordingSlowly {
+    0% {
+        -o-opacity:0;
+    }
+    100% {
+        -o-opacity:1;
+    }
+}
+
+@keyframes accordingSlowly {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.grayg{
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+}
+.accordingSlowly{
+    -webkit-animation: accordingSlowly 1s linear;
+    -moz-animation: accordingSlowly 1s linear;
+    -o-animation: accordingSlowly 1s linear;
+    animation: accordingSlowly 1s linear;
+}
+.swipeMove{opacity: 0}/*箭头默认是透明*/
+.tips{display: none}
+.yes{display: none}
+.wrong{display: none}
+.fakeAswpct{
+    width: 63px;
+    height: 63px;
+    background-size: cover;
+}
+.dragings{
+    position: absolute;
+}
+
+
